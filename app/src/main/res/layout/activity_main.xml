@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/grey"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/conName"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/editshape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Contact Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/conNum"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:background="@drawable/editshape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Contact Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/priority"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="146dp"
+        android:background="@drawable/editshape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Priority"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/shape"
+        android:text="Save" />
+
+    <EditText
+        android:id="@+id/comData"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="206dp"
+        android:background="@drawable/editshape"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Communication data"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>
